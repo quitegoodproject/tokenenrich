@@ -1,0 +1,21 @@
+{
+  "$schema": "https://glama.ai/mcp/schema.json",
+  "name": "tokenenrich-mcp",
+  "description": "Sub-140ms B2B Company Intelligence & Technographic Signal API in ~180 Tokens for AI Agents.",
+  "homepage": "https://tokenenrich.com",
+  "repository": "https://github.com/quitegoodproject/tokenenrich",
+  "transport": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "tokenenrich-mcp"
+    ]
+  },
+  "tags": [
+    "mcp",
+    "ai-agents",
+    "developer-primitives",
+    "quitegoodproject"
+  ]
+}

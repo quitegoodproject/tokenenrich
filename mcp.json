@@ -1,0 +1,17 @@
+{
+  "name": "tokenenrich-mcp",
+  "version": "1.0.0",
+  "description": "Sub-140ms B2B Company Intelligence & Technographic Signal API in ~180 Tokens for AI Agents.",
+  "author": "Quite Good Project",
+  "homepage": "https://tokenenrich.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quitegoodproject/tokenenrich.git"
+  },
+  "tools": [
+    {
+      "name": "enrich_company",
+      "desc": "Extracts sub-140ms firmographic signals in ~180 tokens."
+    }
+  ]
+}
