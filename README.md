@@ -24,7 +24,7 @@ Raw website scraping dumps **25,000+ tokens** into an LLM context ($0.08 / call,
   "mcpServers": {
     "tokenenrich": {
       "command": "npx",
-      "args": ["-y", "@quitegoodproject/tokenenrich-mcp"],
+      "args": ["-y", "tokenenrich-mcp"],
       "env": {
         "TOKENENRICH_API_KEY": "<TOKENENRICH_API_KEY>"
       }
