@@ -1,12 +1,20 @@
 name: tokenenrich-mcp
+displayName: TokenEnrich
+description: Sub-140ms B2B Company Intelligence & Technographic Signal API in ~180 Tokens for AI Agents & Claude Desktop.
 version: 1.0.0
-description: Sub-140ms B2B Company Intelligence & Technographic Signal API in ~180 Tokens for AI Agents.
-repository: https://github.com/quitegoodproject/tokenenrich
 homepage: https://tokenenrich.com
-command: npx
-args:
-  - -y
-  - tokenenrich-mcp
-tools:
-  - name: enrich_company
-    description: Extracts sub-140ms firmographic signals in ~180 tokens.
+repository: https://github.com/quitegoodproject/tokenenrich
+license: MIT
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        description: TokenEnrich API Key (optional for free tier)
+  commandFunction:
+    name: npx
+    args:
+      - -y
+      - "@quitegoodproject/tokenenrich-mcp"
