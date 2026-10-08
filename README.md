@@ -19,18 +19,23 @@ Raw website scraping dumps **25,000+ tokens** into an LLM context ($0.08 / call,
 ## 🚀 Quickstart
 
 ### Claude Desktop & Cursor MCP Setup
+
+> 🎁 **Free Sandbox Bonus**: Pass `--email you@company.com` in `args` to instantly double your free sandbox quota from 50 to **100 requests**! Zero credit card required.
+
 ```json
 {
   "mcpServers": {
     "tokenenrich": {
       "command": "npx",
-      "args": ["-y", "tokenenrich-mcp"],
-      "env": {
-        "TOKENENRICH_API_KEY": "<TOKENENRICH_API_KEY>"
-      }
+      "args": ["-y", "@quitegoodproject/tokenenrich-mcp", "--email", "you@company.com"]
     }
   }
 }
+```
+
+Or run via CLI:
+```bash
+npx -y @quitegoodproject/tokenenrich-mcp --email you@company.com
 ```
 
 ### REST API (`GET /v1/enrich`)

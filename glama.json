@@ -9,13 +9,19 @@
     "command": "npx",
     "args": [
       "-y",
-      "tokenenrich-mcp"
-    ]
+      "@quitegoodproject/tokenenrich-mcp@1.1.0"
+    ],
+    "env": {
+      "TOKENENRICH_API_KEY": "${TOKENENRICH_API_KEY}",
+      "TOKENENRICH_EMAIL": "${TOKENENRICH_EMAIL}"
+    }
   },
   "tags": [
+    "b2b-enrichment",
+    "firmographics",
     "mcp",
     "ai-agents",
-    "developer-primitives",
-    "quitegoodproject"
+    "claude-desktop",
+    "cursor"
   ]
 }
